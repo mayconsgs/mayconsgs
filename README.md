@@ -1,7 +1,5 @@
 ### Bem vindo ao meu GitHub
 
-![Linkedin](https://simpleicons.org/icons/linkedin.svg) ![E-mail](https://simpleicons.org/icons/gmail.svg)
-
 <!--
 **Mayconsgs/Mayconsgs** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
