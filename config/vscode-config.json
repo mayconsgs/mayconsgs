@@ -35,5 +35,5 @@
     "dart.debugExternalLibraries": false,
     "dart.debugSdkLibraries": false,
     "git.autofetch": true,
-    "explorer.confirmDelete": false,
+    "explorer.confirmDelete": false
 }
