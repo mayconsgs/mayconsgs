@@ -15,7 +15,7 @@ Acho que alguns projetos que eu mais me orgulho de ter feito são os projetos da
 - [Ecoleta](https://github.com/Mayconsgs/Ecoleta)
 
 #### Contatos
-  [![Linkedin](assets/Git%20buttons.png)](https://www.linkedin.com/in/mayconsgs/)  [![Email](assets/Git%20buttons-1.png)](mailto:maycon.s.santos44@gmail.com) [![Web Site](assets/Git%20buttons-2.png)](https://mayconsgs.netlify.app/)
+  [![Linkedin](https://github.com/Mayconsgs/Mayconsgs/blob/master/assets/Git%20buttons.png)](https://www.linkedin.com/in/mayconsgs/)  [![Email](https://github.com/Mayconsgs/Mayconsgs/blob/master/assets/Git%20buttons-1.png)](mailto:maycon.s.santos44@gmail.com) [![Web Site](https://github.com/Mayconsgs/Mayconsgs/blob/master/assets/Git%20buttons-2.png)](https://mayconsgs.netlify.app/)
 
 #### Configurações de ambiente.
 Como dev gosto de ter tudo bem organizado, e com uma temática bem semelhante entre as ferramentas. Optei pelo Dracula Theme por achar lindo.
