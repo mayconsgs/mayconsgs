@@ -1,0 +1,39 @@
+{
+    "[dart]": {
+        "editor.formatOnSave": true,
+        "editor.formatOnType": true,
+        "editor.rulers": [
+            80
+        ],
+        "editor.selectionHighlight": false,
+        "editor.suggest.snippetsPreventQuickSuggestions": false,
+        "editor.suggestSelection": "first",
+        "editor.tabCompletion": "onlySnippets",
+        "editor.wordBasedSuggestions": false
+    },
+    "[html]": {
+        "editor.defaultFormatter": "vscode.html-language-features"
+    },
+    "workbench.iconTheme": "material-icon-theme",
+    "git.enableSmartCommit": true,
+    "emmet.syntaxProfiles": {
+        "javascript": "jsx"
+    },
+    "emmet.includeLanguages": {
+        "javascript": "javascriptreact"
+    },
+    "git.confirmSync": false,
+    "javascript.updateImportsOnFileMove.enabled": "always",
+    "C_Cpp.updateChannel": "Insiders",
+    "typescript.updateImportsOnFileMove.enabled": "always",
+    "material-icon-theme.folders.color": "#90a4ae",
+    "workbench.activityBar.visible": true,
+    "files.autoSaveDelay": 0,
+    "files.autoSave": "onWindowChange",
+    "debug.openDebug": "openOnDebugBreak",
+    "workbench.colorTheme": "Dracula",
+    "dart.debugExternalLibraries": false,
+    "dart.debugSdkLibraries": false,
+    "git.autofetch": true,
+    "explorer.confirmDelete": false,
+}
