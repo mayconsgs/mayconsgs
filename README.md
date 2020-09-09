@@ -20,4 +20,4 @@ Acho que alguns projetos que eu mais me orgulho de ter feito são os projetos da
 #### Configurações de ambiente.
 Como dev gosto de ter tudo bem organizado, e com uma temática bem semelhante entre as ferramentas. Optei pelo Dracula Theme por achar lindo.
 Segue as minhas configs das ferramentas que mais utilizo:
-- [Visual Studio Code](./config/vscode-config.json)
+- [Visual Studio Code](https://github.com/Mayconsgs/Mayconsgs/blob/master/config/vscode-config.json)
