@@ -1,0 +1,9 @@
+<templateSet group="Flutter">
+  <template name="mobx" value="import 'package:mobx/mobx.dart';&#10;&#10;part '$FILENAME$.g.dart';&#10;&#10;class $CLASSNAME$ = _$CLASSNAME$ with _$$$CLASSNAME$;&#10;&#10;abstract class _$CLASSNAME$ with Store {&#10;&#10;}" description="New MobX file" toReformat="false" toShortenFQNames="true">
+    <variable name="FILENAME" expression="fileNameWithoutExtension()" defaultValue="" alwaysStopAt="false" />
+    <variable name="CLASSNAME" expression="capitalize(camelCase(FILENAME))" defaultValue="" alwaysStopAt="false" />
+    <context>
+      <option name="DART" value="true" />
+    </context>
+  </template>
+</templateSet>

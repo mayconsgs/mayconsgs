@@ -1,0 +1,5 @@
+Dart
+com.google.services.firebase
+com.vermouthx.idea
+io.flutter
+org.jetbrains.kotlin
