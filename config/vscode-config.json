@@ -1,17 +1,14 @@
 {
-  // Theme do meu VS Code
   "workbench.iconTheme": "material-icon-theme",
   "workbench.colorTheme": "Omni",
-  // Alinha as cores do "Bracket Pair Colorizer 2" com as cores do tema Omni
   "bracket-pair-colorizer-2.colors": [
-    "#67E480", // Verde
-    "#BD93F9", // Roxo
-    "#FF79C6", // Rosa
-    "#E96379", // Vermelho
-    "#78D1FF" // Azul
+    "#67E480",
+    "#BD93F9",
+    "#FF79C6",
+    "#E96379",
+    "#78D1FF"
   ],
 
-  // Icons de pastas
   "material-icon-theme.folders.associations": {
     "infra": "app",
     "entities": "class",
@@ -31,14 +28,12 @@
     "store": "redux-store"
   },
 
-  // Icons de arquivos
   "material-icon-theme.files.associations": {
     "ormconfig.json": "database",
     "tsconfig.json": "tune",
     "*.proto": "3d"
   },
 
-  // Pastas e Arquivos que não serão exibidos
   "files.exclude": {
     "**/.git": true,
     "**/.svn": true,
@@ -46,10 +41,8 @@
     "**/CVS": true,
     "**/.DS_Store": true,
 
-    // Esconde pastas para projetos React e Node
     "**/node_modules": true,
 
-    // Esconde pastas e arquivos para projetos FLutter
     "**/*.g.dart": true,
     "**/.dart_tool": true,
     "**/.idea": true,
@@ -59,7 +52,6 @@
     "**/.flutter-plugins-dependencies": true
   },
 
-  // Salvamento e formatação de arquivos
   "files.autoSave": "onWindowChange",
   "editor.defaultFormatter": "esbenp.prettier-vscode",
   "files.autoSaveDelay": 0,
@@ -68,12 +60,10 @@
     "source.organizeImports": true
   },
 
-  // Atualizar importes quando houver mudanças no arquivo
   "javascript.updateImportsOnFileMove.enabled": "always",
   "typescript.updateImportsOnFileMove.enabled": "always",
   "dart.updateImportsOnRename": true,
 
-  // Configurações do git no VSCode
   "git.enableSmartCommit": true,
   "git.confirmSync": false,
   "git.autofetch": true
