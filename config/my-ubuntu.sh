@@ -30,8 +30,6 @@ sudo apt install -y nodejs
 ## Configura o npm ##
 NPM_CONFIG_PREFIX=~/.npm-global
 source ~/.profile
-## Instala o Yarn ##
-npm install -g yarn
 ## Instala o Firebase Tools ##
 npm install -g firebase-tools
 

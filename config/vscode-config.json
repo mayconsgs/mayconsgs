@@ -1,11 +1,14 @@
 {
   "workbench.iconTheme": "material-icon-theme",
   "workbench.colorTheme": "Omni",
+  "workbench.editor.wrapTabs": true,
+  "workbench.editor.decorations.colors": true,
+  "workbench.editor.decorations.badges": true,
+
   "bracket-pair-colorizer-2.colors": [
     "#67E480",
     "#BD93F9",
     "#FF79C6",
-    "#E96379",
     "#78D1FF"
   ],
 
@@ -53,12 +56,25 @@
   },
 
   "files.autoSave": "onWindowChange",
-  "editor.defaultFormatter": "esbenp.prettier-vscode",
   "files.autoSaveDelay": 0,
-  "editor.codeActionsOnSave": {
-    "source.fixAll": true,
-    "source.organizeImports": true
+  "editor.formatOnSave": true,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+
+  "debug.openDebug": "openOnDebugBreak",
+  "[dart]": {
+    "editor.formatOnType": true,
+    "editor.rulers": [80],
+    "editor.selectionHighlight": false,
+    "editor.suggest.snippetsPreventQuickSuggestions": false,
+    "editor.suggestSelection": "first",
+    "editor.tabCompletion": "onlySnippets",
+    "editor.wordBasedSuggestions": false,
+    "editor.defaultFormatter": "Dart-Code.dart-code"
   },
+  "dart.flutterSdkPath": "/home/maycon/source/flutter",
+  "dart.debugExternalLibraries": false,
+  "dart.debugSdkLibraries": false,
+  "dart.openDevTools": "flutter",
 
   "javascript.updateImportsOnFileMove.enabled": "always",
   "typescript.updateImportsOnFileMove.enabled": "always",
@@ -66,5 +82,8 @@
 
   "git.enableSmartCommit": true,
   "git.confirmSync": false,
-  "git.autofetch": true
+  "git.autofetch": true,
+  "explorer.confirmDelete": false,
+  "liveServer.settings.donotShowInfoMsg": true,
+  "dart.previewLsp": true
 }
