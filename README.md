@@ -1,16 +1,16 @@
 ### Bem vindo ao meu GitHub
 
 Meu nome é Maycon Santos, sou dev front-end e mobile, e como principais linguagens trago:
-[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=mayconsgs&theme=dark)](https://github.com/anuraghazra/github-readme-stats)
 
-#### Projetos
+<center>
+    <a href="https://github.com/anuraghazra/github-readme-stats" target="_blank">
+    <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=mayconsgs&theme=dark&hide_border=true&locale=pt-br" alt="Top Langs"/>
+</center>
 
-Acho que alguns projetos que eu mais me orgulho de ter feito são os projetos das semanas OmniStack/Next Level Week. E meu portfólio.
-
-- [Portfólio](https://github.com/Mayconsgs/Portfolio)
-- [Be The Hero](https://github.com/Mayconsgs/Be-The-Hero)
-- [Proffy](https://github.com/Mayconsgs/Proffy)
-- [Ecoleta](https://github.com/Mayconsgs/Ecoleta)
+<center>
+    <a href="https://github.com/anuraghazra/github-readme-stats" target="_blank">
+    <img src="https://github-readme-stats.vercel.app/api/wakatime?username=mayconsgs&theme=dark&hide_border=true" alt="willianrod's wakatime stats"/>
+</center>
 
 #### Contatos
 
