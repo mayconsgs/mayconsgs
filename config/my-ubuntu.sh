@@ -1,45 +1,143 @@
 #!/usr/bin/bash
 
-## Removendo travas de permição ##
+echo "========================================================="
+echo "Removendo travas"
+echo "========================================================="
+
 sudo rm /var/lib/dpkg/lock-frontend; sudo rm /var/cache/apt/archives/lock;
+
+echo "========================================================="
+echo "Atualizando APT"
+echo "========================================================="
 
 sudo apt update -y
 
-mkdir /home/$USER/Downloads/programas
+mkdir /home/$USER/Downloads/deb
+cd /home/$USER/Downloads/deb
 
-cd /home/$USER/Downloads/programas
+echo "========================================================="
+echo "Baixando arquivos .deb"
+echo "========================================================="
 
-## Baixando arquivos .deb ##
-
-## Chrome ##
 wget -c https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
-## Insomnia ##
-wget -c https://updates.insomnia.rest/downloads/ubuntu/latest?ref=https%3A%2F%2Fwww.google.com%2F&app=com.insomnia.app&source=website
-## MailSpring ##
-wget -c https://updates.getmailspring.com/download?platform=linuxDeb
-## Visual Studio Code ##
 wget -c https://update.code.visualstudio.com/latest/linux-deb-x64/stable
+wget -c https://download3.operacdn.com/pub/opera/desktop/74.0.3911.144/linux/opera-stable_74.0.3911.144_amd64.deb
 
-sudo dpkg -i *.deb ## Instala os arquivos .deb ##
+echo "========================================================="
+echo "Instalando arquivos .deb"
+echo "========================================================="
 
-cd ../../
+sudo dpkg -i *.deb
 
-## Instala o Node.js ##
-curl -sL https://deb.nodesource.com/setup_14.x | sudo -E bash -
+echo "========================================================="
+echo "Baixando e Instalando Java 11"
+echo "========================================================="
+
+cd /home/$USER/Downloads
+
+wget -c https://download.java.net/openjdk/jdk11/ri/openjdk-11+28_linux-x64_bin.tar.gz
+
+sudo mkdir /usr/lib/jvm
+cd /usr/lib/jvm
+sudo tar -xvzf ~/Downloads/openjdk-11+28_linux-x64_bin.tar.gz
+
+export PATH="$PATH:/usr/lib/jvm/jdk-11/bin"
+export JAVA_HOME="/usr/lib/jvm/jdk-11"
+
+sudo update-alternatives --install "/usr/bin/java" "java" "/usr/lib/jvm/jdk-11/bin/java" 0
+sudo update-alternatives --install "/usr/bin/javac" "javac" "/usr/lib/jvm/jdk-11/bin/javac" 0
+sudo update-alternatives --set java /usr/lib/jvm/jdk-11/bin/java
+sudo update-alternatives --set javac /usr/lib/jvm/jdk-11/bin/javac
+
+sudo update-alternatives --list java
+sudo update-alternatives --list javac
+
+echo "========================================================="
+echo "Instala o Node.js 14"
+echo "========================================================="
+
+sudo cd /home/$USER
+
+curl -fsSL https://deb.nodesource.com/setup_14.x | sudo -E bash -
 sudo apt install -y nodejs
-## Configura o npm ##
-NPM_CONFIG_PREFIX=~/.npm-global
-source ~/.profile
-## Instala o Firebase Tools ##
-npm install -g firebase-tools
 
-## Instala o Git ##
+echo "========================================================="
+echo "Configurando o Node.js 14"
+echo "========================================================="
+
+mkdir /home/$USER/.npm-global
+npm config set prefix '~/.npm-global'
+export PATH="$PATH:/home/$USER/.npm-global/bin"
+
+echo "========================================================="
+echo "Instalando pacotes NPM globais"
+echo "========================================================="
+
+npm install -g firebase-tools sass @vue/cli
+
+echo "========================================================="
+echo "Instalando Git"
+echo "========================================================="
+
 sudo apt install -y git
 
-## Instalando o FLutter ##
-mkdir /home/$USER/.source
-cd /home/$USER/.source
-git clone https://github.com/flutter/flutter.git -b stable --depth 1
-cd ..
-## export PATH="$PATH:.source/flutter/bin" ##
+echo "========================================================="
+echo "Instalando temas e icones do sistema"
+echo "========================================================="
 
+sudo mkdir /home/$USER/.themes
+cd /home/$USER/.themes
+git clone https://github.com/getomni/gtk.git
+mv gtk Omni
+
+cd /home/$USER/Downloads
+git clone https://github.com/vinceliuice/Tela-icon-theme.git
+sudo Tela-icon-theme/install.sh purple
+
+git clone https://github.com/varlesh/oreo-cursors.git
+sudo apt install make
+sudo apt install inkscape
+sudo apt install xcursorgen
+sudo apt install ruby
+
+
+echo "========================================================="
+echo "Instalando FLutter"
+echo "========================================================="
+
+sudo mkdir /home/$USER/.source
+sudo cd /home/$USER/.source
+git clone https://github.com/flutter/flutter.git -b stable --depth 1
+sudo export PATH="$PATH:/home/$USER/.source/flutter/bin"
+
+echo "========================================================="
+echo "Instalações Snap"
+echo "========================================================="
+
+sudo snap install mailspring
+sudo snap install insomnia
+sudo snap install beekeeper-studio
+snap install spotify
+
+echo "========================================================="
+echo "Instalando OBS"
+echo "========================================================="
+
+sudo apt install ffmpeg
+sudo add-apt-repository ppa:obsproject/obs-studio
+sudo apt update
+sudo apt install obs-studio
+
+echo "========================================================="
+echo "Instalando Android Studio"
+echo "========================================================="
+
+cd /home/$USER/Downloads
+wget -c https://redirector.gvt1.com/edgedl/android/studio/ide-zips/4.1.2.0/android-studio-ide-201.7042882-linux.tar.gz
+cd /opt
+sudo tar -xvzf ~/Downloads/android-studio-ide-201.7042882-linux.tar.gz
+
+echo "========================================================="
+echo "Execute o Android Studio com o comando:"
+echo "sudo /opt/android-studio/bin/studio.sh"
+echo "========================================================="
