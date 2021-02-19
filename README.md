@@ -2,15 +2,21 @@
 
 Meu nome é Maycon Santos, sou dev front-end e mobile, e como principais linguagens trago:
 
-<center>
-    <a href="https://github.com/anuraghazra/github-readme-stats" target="_blank">
-    <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=mayconsgs&theme=dark&hide_border=true&locale=pt-br" alt="Top Langs"/>
-</center>
+<a href="https://github.com/anuraghazra/github-readme-stats" target="_blank">
+    <img
+        src="https://github-readme-stats.vercel.app/api/top-langs/?username=mayconsgs&theme=dark&hide_border=true&locale=pt-br"
+        alt="Top Langs"
+        align="center"
+    />
+</a>
 
-<center>
-    <a href="https://github.com/anuraghazra/github-readme-stats" target="_blank">
-    <img src="https://github-readme-stats.vercel.app/api/wakatime?username=mayconsgs&theme=dark&hide_border=true" alt="willianrod's wakatime stats"/>
-</center>
+<a href="https://github.com/anuraghazra/github-readme-stats" target="_blank">
+    <img
+        src="https://github-readme-stats.vercel.app/api/wakatime?username=mayconsgs&theme=dark&hide_border=true"
+        alt="willianrod's wakatime stats"
+        align="center"
+    />
+</a>
 
 #### Contatos
 
