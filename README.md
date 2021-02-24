@@ -4,7 +4,7 @@ Meu nome é Maycon Santos, sou dev front-end e mobile, e como principais linguag
 
 <a href="https://github.com/anuraghazra/github-readme-stats" target="_blank">
     <img
-        src="https://github-readme-stats.vercel.app/api/top-langs/?username=mayconsgs&theme=dark&hide_border=true&locale=pt-br"
+        src="https://github-readme-stats.vercel.app/api/top-langs/?username=mayconsgs&theme=dark&hide_border=true&locale=pt-br&langs_count=4"
         alt="Top Langs"
         align="center"
     />
@@ -12,7 +12,7 @@ Meu nome é Maycon Santos, sou dev front-end e mobile, e como principais linguag
 
 <a href="https://github.com/anuraghazra/github-readme-stats" target="_blank">
     <img
-        src="https://github-readme-stats.vercel.app/api/wakatime?username=mayconsgs&theme=dark&hide_border=true"
+        src="https://github-readme-stats.vercel.app/api/wakatime?username=mayconsgs&theme=dark&hide_border=true&hide_title=true&layout=compact"
         alt="willianrod's wakatime stats"
         align="center"
     />
