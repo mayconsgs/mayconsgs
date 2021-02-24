@@ -73,7 +73,7 @@ echo "========================================================="
 echo "Instalando pacotes NPM globais"
 echo "========================================================="
 
-npm install -g firebase-tools sass @vue/cli
+npm install -g firebase-tools sass @vue/cli yarn
 
 echo "========================================================="
 echo "Instalando Git"
@@ -95,11 +95,7 @@ git clone https://github.com/vinceliuice/Tela-icon-theme.git
 sudo Tela-icon-theme/install.sh purple
 
 git clone https://github.com/varlesh/oreo-cursors.git
-sudo apt install make
-sudo apt install inkscape
-sudo apt install xcursorgen
-sudo apt install ruby
-
+sudo apt install -y make inkscape ruby
 
 echo "========================================================="
 echo "Instalando FLutter"
@@ -114,10 +110,7 @@ echo "========================================================="
 echo "Instalações Snap"
 echo "========================================================="
 
-sudo snap install mailspring
-sudo snap install insomnia
-sudo snap install beekeeper-studio
-snap install spotify
+sudo snap install mailspring spotify insomnia beekeeper-studio
 
 echo "========================================================="
 echo "Instalando OBS"
@@ -136,6 +129,8 @@ cd /home/$USER/Downloads
 wget -c https://redirector.gvt1.com/edgedl/android/studio/ide-zips/4.1.2.0/android-studio-ide-201.7042882-linux.tar.gz
 cd /opt
 sudo tar -xvzf ~/Downloads/android-studio-ide-201.7042882-linux.tar.gz
+
+sudo apt autoremove
 
 echo "========================================================="
 echo "Execute o Android Studio com o comando:"
