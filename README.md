@@ -27,4 +27,5 @@ Meu nome é Maycon Santos, sou dev front-end e mobile, e como principais linguag
 Como dev gosto de ter tudo bem organizado, e com uma temática bem semelhante entre as ferramentas. Optei pelo Omni Theme por achar lindo, ele é um tema baseado no Dracula Theme, porém um pouco mais escuro.
 Segue as minhas configs das ferramentas que mais utilizo:
 
-- [Visual Studio Code](./config/vscode-config.json)
+- [Visual Studio Code](https://gist.github.com/Mayconsgs/a25171951a82e9f0772a17d8fe714674)
+- [Ubuntu](https://gist.github.com/Mayconsgs/4fa75eda713325458e6b6a3b3bb286d9)
