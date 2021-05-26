@@ -1,6 +1,6 @@
 ### Bem vindo ao meu GitHub
 
-Meu nome é Maycon Santos, sou dev front-end e mobile, e como principais linguagens trago:
+Meu nome é Maycon Santos, sou dev full stack, e como principais linguagens tenho:
 
 <a href="https://github.com/anuraghazra/github-readme-stats" target="_blank">
     <img
