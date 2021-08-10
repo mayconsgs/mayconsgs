@@ -28,4 +28,4 @@ Como dev gosto de ter tudo bem organizado, e com uma temática bem semelhante en
 Segue as minhas configs das ferramentas que mais utilizo:
 
 - [Visual Studio Code](https://gist.github.com/Mayconsgs/a25171951a82e9f0772a17d8fe714674)
-- [Ubuntu](https://gist.github.com/Mayconsgs/4fa75eda713325458e6b6a3b3bb286d9)
+- [Ubuntu](https://gist.github.com/mayconsgs/aecc5c4dd6576693c4757ca286cc5ea6)
