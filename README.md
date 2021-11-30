@@ -20,7 +20,7 @@ Meu nome é Maycon Santos, sou dev full stack, e como principais linguagens tenh
 
 #### Contatos
 
-[![Linkedin](./assets/Git%20buttons.png)](https://www.linkedin.com/in/mayconsgs/) [![Email](./assets/Git%20buttons-1.png)](mailto:maycon.s.santos44@gmail.com) [![Web Site](./assets/Git%20buttons-2.png)](https://mayconsgs.netlify.app/)
+[![Linkedin](./assets/Git%20buttons.png)](https://www.linkedin.com/in/mayconsgs/) [![Email](./assets/Git%20buttons-1.png)](mailto:maycon.s.santos44@gmail.com) [![Web Site](./assets/Git%20buttons-2.png)](https://mayconsgs.vercel.app/)
 
 #### Configurações de ambiente.
 
