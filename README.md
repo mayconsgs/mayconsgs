@@ -1,4 +1,4 @@
-### Bem vindo ao meu GitHub
+### Bem vindo ao meu GitHub!
 
 Meu nome é Maycon Santos, sou dev full stack, e como principais linguagens tenho:
 
@@ -20,12 +20,14 @@ Meu nome é Maycon Santos, sou dev full stack, e como principais linguagens tenh
 
 #### Contatos
 
-[![Linkedin](./assets/Git%20buttons.png)](https://www.linkedin.com/in/mayconsgs/) [![Email](./assets/Git%20buttons-1.png)](mailto:maycon.s.santos44@gmail.com) [![Web Site](./assets/Git%20buttons-2.png)](https://mayconsgs.vercel.app/)
+[![Linkedin](https://img.shields.io/badge/LinkedIn-7030a0?style=for-the-badge&logo=LinkedIn&logoColor=white)](https://www.linkedin.com/in/mayconsgs/) 
+[![Email](https://img.shields.io/badge/mail-7030a0?style=for-the-badge&logo=Gmail&logoColor=white)](mailto:maycon.s.santos44@gmail.com) 
+[![Web Site](https://img.shields.io/badge/web%20site-7030a0?style=for-the-badge&logo=Google%20Chrome&logoColor=white)](https://mayconsgs.vercel.app/)
 
-#### Configurações de ambiente.
+#### Configurações de ambiente
 
 Como dev gosto de ter tudo bem organizado, e com uma temática bem semelhante entre as ferramentas. Optei pelo Omni Theme por achar lindo, ele é um tema baseado no Dracula Theme, porém um pouco mais escuro.
 Segue as minhas configs das ferramentas que mais utilizo:
 
-- [Visual Studio Code](https://gist.github.com/Mayconsgs/a25171951a82e9f0772a17d8fe714674)
+- [Visual Studio Code](https://gist.github.com/mayconsgs/a25171951a82e9f0772a17d8fe714674)
 - [Ubuntu](https://gist.github.com/mayconsgs/aecc5c4dd6576693c4757ca286cc5ea6)
