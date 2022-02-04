@@ -2,26 +2,14 @@
 
 Meu nome é Maycon Santos, sou dev full stack, e como principais linguagens tenho:
 
-<a href="https://github.com/anuraghazra/github-readme-stats" target="_blank">
-    <img
-        src="https://github-readme-stats.vercel.app/api/top-langs/?username=mayconsgs&theme=dark&hide_border=true&locale=pt-br"
-        alt="Top Langs"
-        align="center"
-    />
-</a>
+[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=mayconsgs&bg_color=00000000&text_color=888888&hide_border=true&locale=pt-br)](https://github.com/anuraghazra/github-readme-stats)
 
-<a href="https://github.com/anuraghazra/github-readme-stats" target="_blank">
-    <img
-        src="https://github-readme-stats.vercel.app/api/wakatime?username=mayconsgs&theme=dark&hide_border=true&layout=compact&custom_title=Tempo%20de%20código%20na%20semana"
-        alt="willianrod's wakatime stats" 
-        align="center"
-    />
-</a>
+[![willianrod's wakatime stats](https://github-readme-stats.vercel.app/api/wakatime?username=mayconsgs&bg_color=00000000&text_color=888888&hide_border=true&layout=compact&custom_title=Tempo%20de%20código%20na%20semana)](https://github.com/anuraghazra/github-readme-stats)
 
 #### Contatos
 
-[![Linkedin](https://img.shields.io/badge/LinkedIn-7030a0?style=for-the-badge&logo=LinkedIn&logoColor=white)](https://www.linkedin.com/in/mayconsgs/) 
-[![Email](https://img.shields.io/badge/mail-7030a0?style=for-the-badge&logo=Gmail&logoColor=white)](mailto:maycon.s.santos44@gmail.com) 
+[![Linkedin](https://img.shields.io/badge/LinkedIn-7030a0?style=for-the-badge&logo=LinkedIn&logoColor=white)](https://www.linkedin.com/in/mayconsgs/)
+[![Email](https://img.shields.io/badge/mail-7030a0?style=for-the-badge&logo=Gmail&logoColor=white)](mailto:maycon.s.santos44@gmail.com)
 [![Web Site](https://img.shields.io/badge/web%20site-7030a0?style=for-the-badge&logo=Google%20Chrome&logoColor=white)](https://mayconsgs.vercel.app/)
 
 #### Configurações de ambiente
