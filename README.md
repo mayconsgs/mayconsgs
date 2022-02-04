@@ -4,7 +4,7 @@ Meu nome é Maycon Santos, sou dev full stack, e como principais linguagens tenh
 
 [![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=mayconsgs&bg_color=00000000&text_color=888888&hide_border=true&locale=pt-br)](https://github.com/anuraghazra/github-readme-stats)
 
-[![willianrod's wakatime stats](https://github-readme-stats.vercel.app/api/wakatime?username=mayconsgs&bg_color=00000000&text_color=888888&hide_border=true&layout=compact&custom_title=Tempo%20de%20código%20na%20semana)](https://github.com/anuraghazra/github-readme-stats)
+[![willianrod's wakatime stats](https://github-readme-stats.vercel.app/api/wakatime?username=mayconsgs&bg_color=00000000&text_color=888888&hide_border=true&layout=compact&locale=pt-br)](https://github.com/anuraghazra/github-readme-stats)
 
 #### Contatos
 
