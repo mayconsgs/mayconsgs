@@ -8,9 +8,9 @@ Meu nome é Maycon Santos, sou dev full stack, e como principais linguagens tenh
 
 #### Contatos
 
-[![Linkedin](https://img.shields.io/badge/LinkedIn-7030a0?style=for-the-badge&logo=LinkedIn&logoColor=white)](https://www.linkedin.com/in/mayconsgs/)
-[![Email](https://img.shields.io/badge/mail-7030a0?style=for-the-badge&logo=Gmail&logoColor=white)](mailto:maycon.s.santos44@gmail.com)
-[![Web Site](https://img.shields.io/badge/web%20site-7030a0?style=for-the-badge&logo=Google%20Chrome&logoColor=white)](https://mayconsgs.vercel.app/)
+[![LinkedIn](https://img.shields.io/badge/Linkedin-7030a0?style=for-the-badge&logo=LinkedIn&logoColor=white)](https://www.linkedin.com/in/mayconsgs)
+[![Instagram](https://img.shields.io/badge/Instagram-7030a0?style=for-the-badge&logo=Instagram&logoColor=white)](https://www.instagram.com/mayconsgs)
+
 
 #### Configurações de ambiente
 
